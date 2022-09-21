@@ -23,7 +23,7 @@ public class retainElement {
 		link1.add("Zero");
 		link1.add("First");
 		link1.add("mahesh");
-		
+		System.out.println(link1);
 		
 		link1.retainAll(link);
 		System.out.println(link1);

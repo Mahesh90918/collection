@@ -1,5 +1,6 @@
 package LinkedHasSet;
 
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 
 public class SearchingOperations {
@@ -18,5 +19,12 @@ public class SearchingOperations {
 		System.out.println(link);
 		System.out.println("Serching operation  : ");
 		System.out.println(link.contains("Zero"));
+		HashSet<String> link1 = new LinkedHashSet<>();
+		link1.add("Zero");
+		link1.add("Zero");
+		link1.add("First");
+		System.out.println(link.containsAll(link1));// true
+		System.out.println(link1.containsAll(link));// false
+		
 	}
 }
