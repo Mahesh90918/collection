@@ -13,7 +13,9 @@ public class example3 {
 		a.add(300);
 		a.add(50);
 		a.add(150);
-
+		System.out.println(Collections.max(a));
+		System.out.println(Collections.min(a));
+		
 		ArrayList a1 = new ArrayList<>(a);
 		// a1.addAll(a);
 		for (Object object : a1) {
@@ -28,12 +30,15 @@ public class example3 {
 		ListIterator l = a.listIterator();
 		while (l.hasNext()) {
 			System.out.println(l.next());
-		}System.out.println(".....Pervious.....");
+		}
+		System.out.println(".....Pervious.....");
 		while (l.hasPrevious()) {
 			System.out.println(l.previous());
 		}
 		// java 8 sorting
 		Collections.sort(a, (num1, num2) -> num1 - num2);
 		System.out.println("Sorting :" + a);
+		
+	
 	}
 }

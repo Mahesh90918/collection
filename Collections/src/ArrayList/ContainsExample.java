@@ -1,6 +1,7 @@
 package ArrayList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ContainsExample {
 	public static void main(String[] args) {
@@ -20,7 +21,12 @@ public class ContainsExample {
 			fruit.set(5, "......");
 			fruit.set(6, "......");
 		}
-
+       
+		System.out.println(fruit);
+		Collections.reverse(fruit);
+		System.out.println(fruit);
+		//Collections.sort(fruit);
+		Collections.sort(fruit, Collections.reverseOrder());
 		System.out.println(fruit);
 	}
 }

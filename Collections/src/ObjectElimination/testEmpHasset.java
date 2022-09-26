@@ -1,6 +1,7 @@
 package ObjectElimination;
 
 import java.util.HashSet;
+import java.util.NavigableSet;
 
 public class testEmpHasset {
 	//Program: How to eliminate duplicate user defined objects from HashSet?
@@ -34,5 +35,7 @@ public class testEmpHasset {
 		System.out.println(s3.hashCode());
 		System.out.println(s4.hashCode());
 		System.out.println(s5.hashCode());
+		
+	
 	}
 }
