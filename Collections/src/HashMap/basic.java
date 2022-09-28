@@ -6,7 +6,7 @@ import java.util.Set;
 public class basic {
 	public static void main(String[] args) {
 
-		HashMap<String, String> map = new HashMap<>();
+ final HashMap<String, String> map = new HashMap<>();
 		map.put("First", "siva");
 		map.put("Second", "Mahesh");
 		map.put("Third", "sriman");
