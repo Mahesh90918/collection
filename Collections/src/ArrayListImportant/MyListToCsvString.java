@@ -51,7 +51,7 @@ public class MyListToCsvString {
 		};
 
 		System.out.println(my.getListAsCsvString(s2));
-System.out.println("..................................");
+		System.out.println("..................................");
 		List<String> li1 = new ArrayList<String>() {
 			{
 				this.add("animal");
