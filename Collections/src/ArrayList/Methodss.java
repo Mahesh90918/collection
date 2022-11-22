@@ -1,7 +1,7 @@
 package ArrayList;
 
 import java.util.ArrayList;
-
+// Hello all 
 public class Methodss {
 	public static void main(String[] args) {
 		ArrayList al = new ArrayList<>();
